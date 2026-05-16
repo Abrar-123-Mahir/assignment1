@@ -241,3 +241,56 @@ vertical-align: middle;
     margin-bottom: 20px;
     color: #001931;
 }
+.challange-section{
+
+    padding-top: 120px;
+}
+
+.challange-container{
+    width: 90%;
+    max-width: 1360px;
+    margin: auto;
+    background: #F7F6F2;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.challange-container h2{
+    padding-top: 80px;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 40px;
+    color: #001931;
+    margin-bottom: 20px;
+}
+
+.challange-container p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.challange-btn {
+    display: inline-block;
+    background: #30B868;
+    color: white;
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+
+.challange-btn img{
+    width: 20px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+.challange-container span{
+    display: block;
+    font-size: 16px;
+    color:#627382;
+padding-bottom:80px ;
+}
