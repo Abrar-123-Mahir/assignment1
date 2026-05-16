@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image:url("../css/image/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.nav{
+    width: 100%;
+    height: 92px;
+    background: #FFFFFF;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo img{
+    width: 139px;
+}
+
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  align-items: center;
+}
+.menu a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #001931;
+  font-weight: bold;
+}
+
+
+.nav-button a{
+    text-decoration: none;
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.content{
+    text-align: center;
+    color: white;
+    padding-top: 180px;
+}
+
+.small-text{
+    display: inline-block;
+    background: white;
+    color: green;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.content h1{
+    font-size: 65px;
+    margin-top: 20px;
+}
+
+.green-text{
+    color: #30B868;
+}
+
+.content p{
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 24px;
+}
+
+.buttons{
+    margin-top: 30px;
+}
+
+.main-btn{
+    display: inline-block;
+
+    background: #4CAF50;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+
+.main-btn img{
+width: 15px;
+margin-left: 10px;
+vertical-align: middle;
+}
+
+.second-btn{
+    display: inline-block;
+    margin-left: 15px;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
